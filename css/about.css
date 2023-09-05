@@ -1,0 +1,205 @@
+/* css reset */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* css variable */
+:root{
+    --navbar-height: 59px;
+}
+
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: red;
+    justify-content: space-around;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+ 
+
+/* navbar: logo and img */
+#logo{
+    margin: 0px -321px;
+    height: 36px;
+    width: 39px;
+    border-radius: 20px;
+}
+
+
+/* navbar: list styling */
+
+
+#navbar ul{
+    display: flex;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a{
+    color: white;
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+   text-align: left;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* heading and link */
+#link-home{
+    margin: 32px;
+}
+
+/* box1 */
+#about{
+    border: 2px;
+    border-radius: 28px;
+    background-color: lightgray;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    margin-left: 30px;
+}
+
+#about img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+            
+#about .box1{
+  width: 50px;
+}
+
+#about .box2{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -160px;
+   
+}
+
+/* paragraph */
+.par{
+    text-align: center;
+    padding: 35px;
+}
+
+/* team */
+.heding{
+    text-align: center;
+    margin: 20px;
+}
+
+#team {
+    margin: 34px;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#team .box{
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+#team .box img{
+    height: 113px;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+/* footer  */
+footer .footerr{
+    background-color: black;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .footerr .f{
+    color: white;
+    padding: 40px;
+    /* font-size: 1rem; */
+    font-size: 20px;
+    
+}
+
+footer .footerr .f p{
+    color: white;
+    font-size: 1.2rem;
+    
+}
+footer .footerr .f h3{
+    color: yellow;
+    line-height: 50px;
+}
+
+footer .footerr .f ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: left;
+}
+
+footer .footerr .f ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+ul .ff{
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+footer div.f1{
+    background-color: rgb(5, 90, 247);
+    height: 20px;
+    width: 100%;
+}
+
+footer div.f2{
+    background-color: blue;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* utility class */
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 12px;
+    text-align: center; 
+}

@@ -1,0 +1,19 @@
+/* heading and link */
+#link-home{
+    margin: 32px;
+}
+
+.box{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 85%;
+    border-radius: 28px;
+    margin-left: 70px;
+    background-color: skyblue;
+   
+}
+
+.box p{
+    font-size: 1.2rem;
+}

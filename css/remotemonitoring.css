@@ -1,0 +1,21 @@
+#container{
+}
+/* heading and link */
+#link-home{
+    margin: 32px;
+}
+
+.box{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+    border-radius: 28px;
+    margin-left: 46px;
+   
+}
+
+#container .box img{
+    height: 120px;
+    width: 175px;
+}

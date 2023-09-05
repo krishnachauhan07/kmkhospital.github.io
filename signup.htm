@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <!-- home link  -->
+    <div id="link-home">
+        <a href="index.htm">Home</a> <span>/ Sign Up </span>
+    </div>
+    <div class="containor">
+        <img src="img\peoplelogo\user.png" alt="User">
+        <h2 class="hform">Sign Up</h2>
+        <hr>
+        <form action="nobackend.php" class="formm">
+            <div class="form-group">
+                <input type="text" name="full name" placeholder="Full Name" required>
+                <input type="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <input type="number" name="phone no" placeholder="Phone No." required>
+                <select class="blood" name="Blood Group" placeholder="Select Blood Group" required>
+                    <option value="0">A+</option>
+                    <option value="1">A-</option>
+                    <option value="2">B+</option>
+                    <option value="3">B-</option>
+                    <option value="4">O+</option>
+                    <option value="5">O-</option>
+                    <option value="6">AB+</option>
+                    <option value="7">AB-</option> 
+                </select>
+            </div>
+            <div class="tarea">
+                <textarea  class="area" name="address" cols="35" rows="3" placeholder="Enter Address " required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="email" name="your email" placeholder="Email" required>
+                <input type="password" name="your password" placeholder="Password" required>
+            </div>
+            <div>
+                <input type="radio" name="gender" required>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender">
+                <label for="gender">Other</label>
+            </div>
+            <div>
+                <input type="submit" value="Sign Up"  class="btn">
+            </div>
+            <p class="other">Do you have an account ? <a href="user login.htm">Sign In</a></p>
+            </form>
+    </div>
+</body>
+</html>

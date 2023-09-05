@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="css/Diagnosis.css">
+</head>
+<body>
+    <!-- home link  -->
+    <div id="link-home">
+        <a href="services.htm">Home</a> <span>/ Appointment </span>
+    </div>
+    <div class="containor">
+        <h2 class="hform">Book Appointment</h2>
+        <img src="img\Appointment.png" alt="User">
+        <hr>
+        <form action="nobackend.php" class="formm">
+            <div class="form-group">
+                <input type="text" name="Patient name" placeholder="Patient Name" required>
+                <input type="text" name="Health Issue" placeholder="Health Issue" required>
+                <!-- <input type="date" name="date" required> -->
+            </div>
+            <div class="form-group">
+                <!-- <input type="number" name="phone no" placeholder="Phone No." required> -->
+                <!-- <select class="blood" name="Treatment" placeholder="Treatment" required>
+                    <option value="-1" selected>Treatment</option>
+                    <option value="0">Acne treatment</option>
+                    <option value="1">Cancer treatments</option>
+                    <option value="2">First aid</option>
+                    <option value="3">Gene therapy</option>
+                    <option value="4">Hypnotherapy</option>
+                    <option value="5">Qigong</option>
+                    <option value="6">Renal dialysis</option> -->
+                    <!-- <option value="7">AB-</option>  -->
+                <!-- </select> -->
+                <input type="date" name="Date" placeholder="Date" required>
+                <input type="time" name="Time" placeholder="Time" required>
+
+            </div>
+            <!-- <div class="tarea">
+                <textarea  class="area" name="address" cols="35" rows="3" placeholder="Enter Address " required></textarea>
+            </div> -->
+            <!-- <div class="form-group1">
+                <input type="text" name="Medicines" placeholder="Medicines" required>
+                <input type="number" name="Medicines Qty" placeholder="Medicines Qty" required>
+            </div> -->
+            <!-- <div>
+                <input type="radio" name="gender" required>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender">
+                <label for="gender">Other</label>
+            </div> -->
+            <div>
+                <input type="submit" value="Book"  class="btn">
+                <!-- <input type="submit" value="Update"  class="btn"> -->
+            </div>
+            <!-- <p class="other">Do you have an account ? <a href="user login.htm">Sign In</a></p> -->
+            </form>
+    </div>
+</body>
+</html>
